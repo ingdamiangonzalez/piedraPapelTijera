@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #272734;
+}
+
+header {
+  background: white;
+  padding: 20px;
+}
+
+header > h1 {
+  color: #525153;
+  text-align: center;
+}
+
+.tablero {
+  margin: 20px auto;
+  border: 3px solid white;
+  border-radius: 4px;
+  text-align: center;
+  width: 200px;
+  color: white;
+  font-size: 40px;
+  padding: 15px 20px;
+  position: relative;
+}
+
+.recuadro {
+  background: #df5851;
+  color: white;
+  font-size: 14px;
+  padding: 2px 10px;
+}
+
+#usuario {
+  position: absolute;
+  top: 30px;
+  left: -25px;
+}
+
+#compu {
+  position: absolute;
+  top: 30px;
+  right: -30px;
+}
+
+.resultado {
+  font-size: 40px;
+  color: white;
+}
+.resultado > p {
+  text-align: center;
+  font-weight: bold;
+}
+
+.selecciones {
+  text-align: center;
+  margin: 50px 0;
+}
+.seleccion {
+  display: inline-block;
+  border: 4px solid white;
+  border-radius: 50%;
+  margin: 0 20px;
+  padding: 10px;
+  transition: all 0.3s ease;
+}
+
+.seleccion > img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+
+.seleccion:hover {
+  cursor: pointer;
+  background: #4c4c4e;
+}
+
+#elegir {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
