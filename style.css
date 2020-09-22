@@ -18,7 +18,7 @@ header > h1 {
   text-align: center;
 }
 
-.tablero {
+.score-board {
   margin: 20px auto;
   border: 3px solid white;
   border-radius: 4px;
@@ -30,39 +30,39 @@ header > h1 {
   position: relative;
 }
 
-.recuadro {
+.badge {
   background: #df5851;
   color: white;
   font-size: 14px;
   padding: 2px 10px;
 }
 
-#usuario {
+#user-label {
   position: absolute;
   top: 30px;
   left: -25px;
 }
 
-#compu {
+#computer-label {
   position: absolute;
   top: 30px;
   right: -30px;
 }
 
-.resultado {
+.result {
   font-size: 40px;
   color: white;
 }
-.resultado > p {
+.result > p {
   text-align: center;
   font-weight: bold;
 }
 
-.selecciones {
+.choices {
   text-align: center;
   margin: 50px 0;
 }
-.seleccion {
+.choice {
   display: inline-block;
   border: 4px solid white;
   border-radius: 50%;
@@ -71,13 +71,13 @@ header > h1 {
   transition: all 0.3s ease;
 }
 
-.seleccion > img {
+.choice > img {
   width: 100px;
   height: 100px;
   object-fit: contain;
 }
 
-.seleccion:hover {
+.choice:hover {
   cursor: pointer;
   background: #4c4c4e;
 }
@@ -87,4 +87,19 @@ header > h1 {
   color: white;
   font-weight: bold;
   font-size: 20px;
+}
+
+.green-glow {
+  border: 4px solid #4dcc7d;
+  box-shadow: 0 0 10px #31b43a;
+}
+
+.red-glow {
+  border: 4px solid #fc121b;
+  box-shadow: 0 0 10px #d01115;
+}
+
+.gray-glow {
+  border: 4px solid #464646;
+  box-shadow: 0 0 10px #25292b;
 }
